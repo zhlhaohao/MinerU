@@ -1,0 +1,6 @@
+docker build \
+  --build-arg "HTTP_PROXY=http://10.119.80.110:17890/" \
+  --build-arg "HTTPS_PROXY=http://10.119.80.110:17890/" \
+  -f /home/lianghao/github/MinerU/projects/web_api/Dockerfile \
+  -t mineru:latest \
+  /home/lianghao/github/MinerU/projects/web_api

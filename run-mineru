@@ -1,0 +1,6 @@
+docker run \
+ --name mineru -itd \
+ --gpus=all \
+ -p 8000:8000 \
+ -v /home/lianghao/ragflow/mineru/magic-pdf.json:/root/magic-pdf.json \
+ mineru:latest
